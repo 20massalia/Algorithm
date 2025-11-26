@@ -36,8 +36,6 @@ function solution(k, ranges) {
         
         if (a > b) {
             result.push(-1.0);
-        } else if (a === b) {
-            result.push(0.0);
         } else {
             result.push(prefix[b] - prefix[a]);
         }
